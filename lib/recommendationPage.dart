@@ -14,7 +14,7 @@ class RecommendationPage extends StatefulWidget {
 class _RecommendationPageState extends State<RecommendationPage> {
   String? generatedText = '';
   final TextGenerator googleGenerator =
-      TextGenerator('AIzaSyCritf_ENXJej2zoPIdrhBbSKALZ8p4dkg');
+      TextGenerator('**************************************');
 
   Future<void> generateText(String prompt) async {
     try {
